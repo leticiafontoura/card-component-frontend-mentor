@@ -13,14 +13,14 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 
-## Overview
+## :point_right: Overview
 
 This project was developed to improve HTML and CSS skills. The designs were created to the following widths:
 
 - Mobile: 375px
 - Desktop: 1440px
 
-### The challenge
+### :runner: The challenge
 
 Users should be able to:
 
@@ -28,13 +28,15 @@ Users should be able to:
 
 ### :camera: Screenshot
 
-Desktop
+<p>Desktop</p>
+
 ![desktop screenshot](https://i.imgur.com/doaWMqe.png)
 
-Mobile
+<p>Mobile</p>
+
 ![mobile screenshot](https://i.imgur.com/NizDkK5.png)
 
-### Links
+### :paperclip: Links
 
 - Solution URL: [Code Repo](https://github.com/leticiafontoura/card-component-frontend-mentor)
 - Live Site URL: [Live URL](https://leticiafontoura.github.io/card-component-frontend-mentor/)
