@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --violet: hsl(277, 64%, 61%);
+    --blue-bg: hsl(244, 38%, 16%);
+    --secondary-paragraphs: hsla(0, 0%, 100%, 0.75);
+    --stats-heading: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: var(--white);
+}
+
+html, body {
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-size: 0.9375em;
+}
+
+.card-container {
+    display: flex;
+    width: 78%;
+    height: 70%;
+    border-radius: 10px;
+    overflow: hidden; /*this makes the border radius work*/
+}
+
+.card-content {
+   padding: 70px;
+   background-color: var(--blue-bg);
+   width: 53%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.card-main-info {
+    width: 80%;
+}
+
+.card-main-info p {
+    font-family: 'Inter', sans-serif;
+    color: var(--secondary-paragraphs);
+    padding-top: 1.875em;
+    padding-bottom: 5em;
+    line-height: 1.6;
+}
+
+.card-main-info h1 {
+    color: var(--white);
+    /* font-family: 'Lexend Deca', sans-serif; */
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2.4em;
+}
+
+.card-main-info h1 span {
+    color: var(--violet);
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.stats1 p:first-child, .stats2 p:first-child, .stats3 p:first-child {
+    color: var(--white);
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5em;
+}
+
+.stats1 p:nth-child(2), .stats2 p:nth-child(2), .stats3 p:nth-child(2) {
+    color: var(--stats-heading);
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding-top: 0.5em;
+}
+
+.image-content {
+    /* min-height: 70vh; */
+    width: 47%;
+    /* height: auto; */
+    background: linear-gradient(rgba(170, 92, 219, 0.6), rgba(170, 92, 219, 0.6)), url('../images/image-header-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: contrast(1.7) brightness(0.6)
+}
+
+footer {
+    font-family: 'Inter', sans-serif;
+    margin-top: 10vh;
+}
+
+footer a {
+    color: var(--violet);
+    text-decoration: none;
+}
+
+@media (max-width: 999px) {
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        width: 40vh;
+    }
+    .card-content {
+        width: 100%;
+        order: 2;
+        text-align: center;
+        padding: 25px;
+    }
+
+    .card-main-info {
+        width: 100%;
+    }
+    .card-main-info h1 {
+        font-size: 2em;
+    }
+    .card-main-info p {
+        font-size: 1.1em;
+        padding-top: 1em;
+        padding-bottom: 2.2em;
+    }
+
+    .stats {
+        flex-direction: column;
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .stats div {
+        padding-bottom: 1.5em;
+    }
+    .image-content {
+        width: 100%;
+        height: 250px;
+    }
+    footer {
+        text-align: center;
+        margin-top: 5vh;
+    }
+}
+
+@media (max-width: 375px) {
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: 10px;
+    }
+    .card-content {
+        width: 100%;
+        order: 2;
+        text-align: center;
+        padding: 25px;
+    }
+
+    .card-main-info {
+        width: 100%;
+    }
+    .card-main-info h1 {
+        font-size: 2em;
+    }
+    .card-main-info p {
+        font-size: 1.1em;
+        padding-top: 1em;
+        padding-bottom: 2.2em;
+    }
+
+    .stats {
+        flex-direction: column;
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .stats div {
+        padding-bottom: 1.5em;
+    }
+    .image-content {
+        width: 100%;
+        height: 250px;
+    }
+    footer {
+        text-align: center;
+        margin: 0 10px;
+    }
+}
