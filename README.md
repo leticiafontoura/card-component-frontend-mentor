@@ -29,10 +29,10 @@ Users should be able to:
 ### Screenshot
 
 Desktop
-![](images/screenshot_desktop.jpg)
+![](images/screenshot_desktop.png)
 
 Mobile
-![](images/screenshot_mobile.jpg)
+![](images/screenshot_mobile.png)
 
 ### Links
 
