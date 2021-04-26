@@ -1,4 +1,4 @@
-<h1 align="center"># Frontend Mentor - Stats preview card component solution</h1>
+<h1 align="center">Frontend Mentor - Stats preview card component solution</h1>
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -12,13 +12,13 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
-This project was developed to improve HTML and CSS skills.
+This project was developed to improve HTML and CSS skills. The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
 
 ### The challenge
 
@@ -28,12 +28,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Desktop
+![](images/screenshot_desktop.jpg)
+
+Mobile
+![](images/screenshot_mobile.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Code Repo](https://github.com/leticiafontoura/card-component-frontend-mentor)
+- Live Site URL: [Live URL](https://leticiafontoura.github.io/card-component-frontend-mentor/)
 
 ### Built with
 
@@ -43,21 +47,7 @@ Users should be able to:
 
 ### What I learned
 
-A cool thing that I learned was to use **em** and ```overflow: hidden``` to properly set a border-radius to a div.
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+A cool thing that I learned was to use **em** and ```css overflow: hidden``` to properly set a border-radius to a div.
 
 ### Continued development
 
